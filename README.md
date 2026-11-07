@@ -9,7 +9,6 @@
 ![Shopify GraphQL](https://img.shields.io/badge/Shopify-GraphQL_Admin_API-95BF47?logo=shopify&logoColor=white)
 ![Tests](https://img.shields.io/badge/xUnit-1700%2B_test-success)
 ![Kaynak](https://img.shields.io/badge/kaynak_kodu-%C3%B6zel_(ticari)-lightgrey)
-[![Örnek kod testleri](https://github.com/furkan-karapinar/Shopify_System-showcase/actions/workflows/ornek-kod.yml/badge.svg)](https://github.com/furkan-karapinar/Shopify_System-showcase/actions/workflows/ornek-kod.yml)
 
 > **30 saniyede:**
 > - **Problem:** Mağaza operasyonu birbirinden kopuk 5+ ayrı araçla yürüyordu; her biri Shopify'a ayrı bağlanıyor, ayarları ayrı tutuyor, bilgisayar kapanınca duruyordu.
@@ -154,6 +153,6 @@ Projenin tek geliştiricisiyim: ihtiyaç analizi, mimari tasarım, aşamalı ge�
 
 Bu depo bir **vaka çalışmasıdır**. Kod, ticari bir işletmeye ait olduğu için herkese açık değildir. Mimariyi ekran paylaşımıyla göstermekten ve teknik görüşmede kod üzerinden konuşmaktan memnuniyet duyarım.
 
-**Paylaşılabilen kısım:** [`ornek-kod/`](ornek-kod) klasöründe asıl projeden alınmış, gizli bilgi içermeyen küçük bir parça var: atomik ayar dosyası yazımı (`AtomicFile`) ve fiyat değişikliği doğrulama kuralları (`PriceValidator`). Tek başına derlenir, birim testleri vardır ve her push'ta GitHub Actions ile çalıştırılır.
+**Paylaşılabilen kısım:** [`ornek-kod/`](ornek-kod) klasöründe asıl projeden alınmış, gizli bilgi içermeyen küçük bir parça var: atomik ayar dosyası yazımı (`AtomicFile`) ve fiyat değişikliği doğrulama kuralları (`PriceValidator`). Tek başına derlenir ve birim testleriyle birlikte gelir (`dotnet test`).
 
 📫 **İletişim:** [GitHub profilim](https://github.com/furkan-karapinar)
